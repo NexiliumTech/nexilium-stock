@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>                               
+    <title>Joseph's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+  <h1>Save Mitumba Business</h1>
+
+  <nav>
+    <button>Dashboard</button>
+    <button>Add Stock</button>
+    <button>Stock</button>
+  </nav>
+
+  <hr>
+
+  <h2>Add New Stock</h2>
+
+  <input type="text" id="itemName" placeholder="Item name">
+  <input type="number" id="itemQuantity" placeholder="Quantity">
+  <input type="number" id="buyPrice" placeholder="Buying Price">
+  <input type="number" id="sellPrice" placeholder="Selling Price">
+
+  <button onclick="addStock()">Add Stock</button>
+
+  <hr>
+
+  <h2>Stock List</h2>
+  <ul id="stockList"></ul>
+
+  <hr>
+
+  <h2>Profit</h2>
+  <p>Total Profit: <span id="profit">0</span> KSh</p>
+
+  <script src="script.js"></script>
+
+    </body>
+</>
+  <script src="script.js"></script>
+</html>
